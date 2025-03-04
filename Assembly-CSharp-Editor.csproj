@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10340467-4369-C54F-FADF-6AD94DFBDE79}</ProjectGuid>
+    <ProjectGuid>{861BEF48-FD59-1EDE-E6F5-15F09E2093EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -28,7 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,7 +37,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -254,20 +254,11 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.iOS.Extensions">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -624,114 +615,114 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARKit">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARKit.Editor">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/Unity Asset Store/Projekt Sumperk/Github/AR-Ball-Battle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems.Editor">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation.Editor">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore.Editor">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit.Editor">
+ <HintPath>E:/Unity Asset Store/Projekt Sumperk/AR Ball Battle/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{BEDEF808-ABE6-5ECA-14FF-582B7F28BED9}</Project>
+      <Project>{7FF21E79-41B5-06B2-B795-F2BCAC2A3FBB}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
